@@ -30,7 +30,7 @@ int main(int argc, char** argv)
   static struct option longOptions[] = {
     {"help", no_argument, 0, 'h'},
     {"puzzle-size", required_argument, 0, 's'},
-    {"difficulty", no_argument, 0, 'd'},
+    {"difficulty", required_argument, 0, 'd'},
     {"show-solution", no_argument, 0, 'l'},
   };
 
